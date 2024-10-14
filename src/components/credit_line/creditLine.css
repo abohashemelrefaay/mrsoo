@@ -1,0 +1,30 @@
+.credit_cover {
+  text-align: center;
+}
+.credit{
+  text-align: center;
+}
+
+button{
+
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20%;
+    margin: 10px;
+  }
+  .credit_cover p{
+    margin: 2% 20% 4% 20%;
+    font-size: 20px;
+    color: white;
+  }
+  .credit_cover .script{
+    background: #01a998;
+    margin: 0% 19% 3% 20%;
+  }
+
