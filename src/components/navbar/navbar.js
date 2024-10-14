@@ -28,14 +28,14 @@ const Navbar = () => {
         <div className="logo">Mrsool</div>
         <ul className={classchange}>
           <li><a  href='/'>Home</a></li>
-          <li><a href='/About_Us'>About Us</a></li>
+          <li><a href='/Store'>Store</a></li>
           <li><a href='/Services'>Services </a></li>
           <li><a href='/Our_mission'>Our mission</a></li>
           <li><a href='/Bills'>Bills</a></li>
         </ul>
       <form className='login'>
-        <input type="submit" onClick={(o)=>o.preventDefault()} className='login_submit' value="Login as Patient" />
-        <input type="submit" onClick={(o)=>o.preventDefault()} className='login_submit' value="Login as Dentist" />
+        <input type="submit" onClick={(o)=>o.preventDefault()} className='login_submit' value="Login as agent" />
+        <input type="submit" onClick={(o)=>o.preventDefault()} className='login_submit' value="Login as admin" />
       </form>
        </div>
 

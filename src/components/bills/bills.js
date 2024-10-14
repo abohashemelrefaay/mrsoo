@@ -1,6 +1,6 @@
 import React from 'react';
 import './bills.css'
-
+import CreditLine from '../credit_line/creditLline';
 const Bills = () => {
   return (
     <div className='bills_cover'>
@@ -13,6 +13,7 @@ const Bills = () => {
         
         
       </div>
+      <CreditLine />
     </div>
   );
 }

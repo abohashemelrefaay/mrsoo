@@ -1,0 +1,62 @@
+/* تنسيقات عامة */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* شكل الـ div القابل للنقر */
+.clickable-div {
+  display: inline-block;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.toggle-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* عمودين متساويين */
+  gap: 10px; /* مسافة بين العناصر */
+  padding: 20px;
+}
+
+.m4b, .nonm4B {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* لجعل التخطيط متجاوبًا */
+@media (max-width: 768px) {
+  .toggle-div {
+      grid-template-columns: 1fr; /* عرض العنصرين في عمود واحد عند الشاشات الصغيرة */
+  }
+}
+/* شكل الـ div الذي يظهر ويختفي */
+.toggle-div .m4b {
+  display: inline-block;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.toggle-div .nonm4B {
+  display: inline-block;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.m4b .contantm4b {
+
+}
+.nonm4b .contantnonm4b {
+
+}
