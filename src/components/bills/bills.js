@@ -4,6 +4,7 @@ import './bills.css'
 const Bills = () => {
   return (
     <div className='bills_cover'>
+      <h1>abohashem</h1>
   <h1>Calculat Bills</h1>
       <div className='bills_cover'>
       <h2>The order is Credit Line</h2>
