@@ -27,7 +27,7 @@ function App() {
           <Route exact path="/Store" element={<Store />} />
         </Routes>
       </Router >
-
+  <Store />
       
       </div>
 
