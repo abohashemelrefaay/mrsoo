@@ -13,8 +13,7 @@ function CreditLine  ()  {
 
   const calculate=()=>{
     const result1 = 
-    parseFloat(Input2)+
-    parseFloat(Input3)-
+    parseFloat(Input3)+
     parseFloat(Input4)-
     parseFloat(Input5)-
     parseFloat(Input6)-
@@ -27,15 +26,15 @@ function CreditLine  ()  {
   <div className='credit'>
     <h3>Order number </h3>
     <input type='number' value={Input1} onChange={(e)=> setImput1(e.target.value)} />
-    <h3>The value that was transferred to the driver in his bank account </h3>
-    <input type='number' value={Input2} onChange={(e)=> setImput2(e.target.value)} />
-    <h3>Any value has been added </h3>
-    <input type='number'  value={Input3} onChange={(e)=> setImput3(e.target.value)}/>
-    <h3>Delivery offer for couriers </h3>
-    <input type='number' value={Input4} onChange={(e)=> setImput4(e.target.value)} />
-    <h3>Vat and commission </h3>
-    <input type='number' value={Input5} onChange={(e)=> setImput5(e.target.value)}/>
     <h3> Order amount </h3>
+    <input type='number' value={Input2} onChange={(e)=> setImput2(e.target.value)}/>
+    <h3>The value that was transferred to the driver in his bank account </h3>
+    <input type='number' value={Input3} onChange={(e)=> setImput3(e.target.value)} />
+    <h3>Any value has been added </h3>
+    <input type='number'  value={Input4} onChange={(e)=> setImput4(e.target.value)}/>
+    <h3>Delivery offer for couriers </h3>
+    <input type='number' value={Input5} onChange={(e)=> setImput5(e.target.value)} />
+    <h3>Vat and commission </h3>
     <input type='number' value={Input6} onChange={(e)=> setInput6(e.target.value)}/>
     <h3> Previous indebtedness before receiving this order </h3>
     <input type='number' value={Input7} onChange={(e)=> setInput7(e.target.value)}/>
@@ -45,7 +44,7 @@ function CreditLine  ()  {
   </div>
   <button onClick={calculate}>Result</button>
   <h2>{result} النتيجه </h2>
-  <div className='script'><p>مرسولنا قيمة الطلب {Input6} ريال وقيمة العرض الخاصه بك {Input4} ريال قبل استلام هذا الطلب {Input1} كان يةجد عليك مديونيه بقيمة {Input7} ريال  وتم خصم منك ضريبه في هذا الطلب {Input1} بقيمة {Input5} ريال وتم تحويل لك في محفظتك البنكية قيمه {Input2} ريال  ثم تم اضافه لك {Input3} ريال  اذا لا يوجد اي مشكله مرسولنه في هذا الطلب {Input1}</p></div>
+  <div className='script'><p>مرسولنا قيمة الطلب {Input2} ريال وقيمة العرض الخاصه بك {Input5} ريال قبل استلام هذا الطلب {Input1} كان يوجد عليك مديونيه بقيمة {Input7} ريال  وتم خصم منك ضريبه في هذا الطلب {Input1} بقيمة {Input6} ريال وتم تحويل لك في محفظتك البنكية قيمه {Input3} ريال  ثم تم اضافه لك {Input4} ريال  اذا لا يوجد اي مشكله مرسولنه في هذا الطلب {Input1}</p></div>
   
 </div>
   );
