@@ -28,4 +28,7 @@ button{
     background: #01a998;
     margin: 0% 19% 3% 20%;
   }
+  .bills_cover .links{
+    display: block;
+  }
 
