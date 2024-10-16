@@ -16,6 +16,7 @@ function CreditLine() {
     const result1 =
       parseFloat(Input3) +
       parseFloat(Input4) -
+      parseFloat(Input2)-
       parseFloat(Input5) -
       parseFloat(Input6) -
       parseFloat(Input7) -
