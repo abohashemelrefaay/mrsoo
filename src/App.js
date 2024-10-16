@@ -6,7 +6,7 @@ import Navbar from './components/navbar/navbar';
 import Index from './components/index';
 import Bills from "./components/bills/bills";
 import Store from "./components/store/store";
-
+import Linksmrsool from "./components/linksmrsool/linksmrsool";
 
 
 
@@ -27,10 +27,10 @@ function App() {
           <Route exact path="/Store" element={<Store />} />
         </Routes>
       </Router >
-  <Store />
-      
+      <Store />
+      <Linksmrsool />
       </div>
-
+ 
     
     );
   }
